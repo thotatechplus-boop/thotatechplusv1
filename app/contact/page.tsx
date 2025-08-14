@@ -7,7 +7,7 @@ export default function Contact() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-8">
-        <form className="grid gap-4" action="https://formspree.io/f/xyyoldkk" method="POST">
+        <form className="grid gap-4" action="https://formspree.io/f/mrbldpkv" method="POST">
           <input className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="name" placeholder="Your name" required />
           <input className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="email" type="email" placeholder="Your email" required />
           <textarea className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="message" rows={6} placeholder="How can we help?" required />
@@ -25,11 +25,6 @@ export default function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-          </div>
-          <div className="text-sm">
-            <p><strong>Email:</strong> operations@thotatechplus.com</p>
-            <p><strong>Phone:</strong> +91 9886187188</p>
-            <p><strong>Address:</strong> 103, 4th Cross, Ayyappa Layout, Munne Kolla, Marathahalli, Bangalore - 560037</p>
           </div>
         </div>
       </div>
