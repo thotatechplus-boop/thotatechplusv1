@@ -19,7 +19,7 @@ export function Footer() {
           <p><a href="https://x.com/thotatechp4865" target="_blank">Twitter/X</a></p>
         </div>
       </div>
-      <div className="text-center text-xs text-neutral-500 pb-6">© {new Date().getFullYear()} THOTATECH+ Software Private Limited. All rights reserved.</div>
+      <div className="text-center text-xs text-neutral-500 pb-6">© 2024 THOTATECH+ Software Private Limited. All rights reserved.</div>
     </footer>
   );
 }
