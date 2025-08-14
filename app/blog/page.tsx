@@ -4,7 +4,7 @@ import path from "node:path";
 type Post = { slug: string; title: string; date: string; description: string; };
 
 function parseFrontmatter(md: string) {
-  const fm = { title: "", date: "", description: "" };
+  const fm = { title: '', date: '', description: '' };
   if (md.startsWith("---")) {
     const end = md.indexOf("---", 3);
     if (end !== -1) {
