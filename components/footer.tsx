@@ -15,7 +15,7 @@ export function Footer() {
         <div>
           <div className="font-semibold mb-2">Follow</div>
           <p><a href="https://www.linkedin.com/company/thotatechplus-software-pvt-ltd" target="_blank">LinkedIn</a></p>
-          <p><a href="https://facebook.com/thotatechplus" target="_blank">Facebook</a></p>
+          <p><a href="https://www.facebook.com/profile.php?id=61579189360112" target="_blank">Facebook</a></p>
           <p><a href="https://x.com/thotatechp4865" target="_blank">Twitter/X</a></p>
         </div>
       </div>

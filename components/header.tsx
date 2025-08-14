@@ -29,7 +29,7 @@ export function Header() {
           ))}
           <div className="ml-2 flex items-center gap-3 opacity-80">
             <a href="https://www.linkedin.com/company/thotatechplus-software-pvt-ltd" target="_blank" aria-label="LinkedIn"><Linkedin size={18} /></a>
-            <a href="https://facebook.com/thotatechplus" target="_blank" aria-label="Facebook"><Facebook size={18} /></a>
+            <a href="https://www.facebook.com/profile.php?id=61579189360112" target="_blank" aria-label="Facebook"><Facebook size={18} /></a>
             <a href="https://x.com/thotatechp4865" target="_blank" aria-label="Twitter"><Twitter size={18} /></a>
           </div>
         </nav>
