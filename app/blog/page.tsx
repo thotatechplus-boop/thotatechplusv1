@@ -11,7 +11,7 @@ function parseFrontmatter(md: string) {
       const header = md.slice(3, end).trim().split("\n");
       for (const line of header) {
         const [k, ...rest] = line.split(":");
-        if (k && rest) fm[k.trim().toLowerCase()] = rest.join(":").trim();
+        if (k && any) fm[k.trim().toLowerCase()] = rest.join(":").trim();
       }
     }
   }
