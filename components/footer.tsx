@@ -4,7 +4,10 @@ export function Footer() {
       <div className="container grid md:grid-cols-3 gap-6 py-8 text-sm">
         <div>
           <div className="font-semibold mb-2">THOTATECH+ Software Pvt. Ltd.</div>
-          <p>AI-first commerce engineering. We build cloud-native, headless, data-driven solutions.</p>
+          <p>AI-first commerce engineering. We build cloud-native, headless, data-driven solutions.</p><br/>
+           <a href="https://hits.sh/your-domain.com/">
+              <img alt="Hits"src="https://hits.sh/your-domain.com.svg?style=flat-square&label=Visitors" />
+          </a>
         </div>
         <div>
           <div className="font-semibold mb-2">Contact</div>
