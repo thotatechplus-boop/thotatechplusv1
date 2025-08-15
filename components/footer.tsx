@@ -42,7 +42,7 @@ export function Footer() {
             alt="THOTATECH+"
             width={160}   // bigger size
             height={50}
-            className="h-auto w-auto max-h-12"
+            className="h-auto w-auto max-h-9"
           />
         </div>
       </div>
