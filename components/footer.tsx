@@ -12,7 +12,7 @@ export function Footer() {
         {/* Contact */}
         <div>
           <div className="font-semibold mb-2">Headquarters</div>
-          <p>Munne Kollala, Marathahalli, Bangalore - 560037</p>
+          <p>Marathahalli, Bangalore - 560037</p>
           <p>operations@thotatechplus.com</p>
           <p>+91 8546 8546 11</p>
         </div>
