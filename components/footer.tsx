@@ -14,7 +14,7 @@ export function Footer() {
           <div className="font-semibold mb-2">Headquarters</div>
           <p>Marathahalli, Bangalore, India</p>
           <p>operations@thotatechplus.com</p>
-          <p>+91 8546 8546 11</p>
+          <p>+91 - 8546854611, 9886187188</p>
         </div>
 
         {/* Follow */}
