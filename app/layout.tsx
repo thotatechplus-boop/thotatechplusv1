@@ -61,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       "postalCode": "560037",
       "addressCountry": "IN"
     },
-    "contactPoint": {
+    "contactPoint":[ {
       "@type": "ContactPoint",
       "contactType": "customer support",
       "email": "operations@thotatechplus.com",
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       "contactType": "others",
       "email": "operations@thotatechplus.com",
       "telephone": "+919886187188"
-    }
+    }]
   };
   return (
     <html lang="en">
