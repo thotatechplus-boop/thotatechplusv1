@@ -67,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       "email": "operations@thotatechplus.com",
       "telephone": "+918546854611"
     },
-     "contactPoint": {
+     {
       "@type": "ContactPoint",
       "contactType": "others",
       "email": "operations@thotatechplus.com",
