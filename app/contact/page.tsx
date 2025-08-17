@@ -10,6 +10,7 @@ export default function Contact() {
         <form className="grid gap-4" action="https://formspree.io/f/mrbldpkv" method="POST">
           <input className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="name" placeholder="Your name" required />
           <input className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="email" type="email" placeholder="Your email" required />
+          <input className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="phone" type="tel" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required />
           <textarea className="bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-2" name="message" rows={6} placeholder="How can we help?" required />
           <button className="btn w-fit" type="submit">Send Message</button>
         </form>

@@ -7,9 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.thotatechplus.com"),
   title: "THOTATECH+ Software Private Limited — AI, E‑Commerce, Cloud",
   description: "Bangalore-based studio building AI-enabled, cloud-native and headless e‑commerce solutions.",
+  keywords: "THOTATECH,THOTATECH+, ThotaTechPlus, ThotaTechPlus Software pvt ltd, ThotaTech+ Software pvt ltd, AI-first commerce, headless commerce, software company",
   icons: { icon: "/favicon.png" },
   openGraph: {
-    title: "THOTATECH+ Software",
+    title: "THOTATECH+ Software pvt ltd",
     description: "AI-first commerce engineering studio in Bangalore.",
     images: ["/og.png"],
     type: "website",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "THOTATECH+ Software",
+    title: "THOTATECH+ Software pvt ltd",
     description: "AI-first commerce engineering studio in Bangalore.",
     images: ["/og.png"]
   }
@@ -49,9 +50,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "url": "https://www.thotatechplus.com",
     "logo": "https://www.thotatechplus.com/logo.png",
     "sameAs": [
-      "https://linkedin.com/company/thotatechplus",
-      "https://facebook.com/thotatechplus",
-      "https://twitter.com/thotatechplus"
+      "https://www.linkedin.com/company/thotatechplus-software-pvt-ltd",
+      "https://www.facebook.com/profile.php?id=61579189360112",
+      "https://x.com/thotatechp4865"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -60,12 +61,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       "postalCode": "560037",
       "addressCountry": "IN"
     },
-    "contactPoint": {
+    "contactPoint":[ {
       "@type": "ContactPoint",
       "contactType": "customer support",
       "email": "operations@thotatechplus.com",
+      "telephone": "+918546854611"
+    },
+     {
+      "@type": "ContactPoint",
+      "contactType": "others",
+      "email": "operations@thotatechplus.com",
       "telephone": "+919886187188"
-    }
+    }]
   };
   return (
     <html lang="en">
