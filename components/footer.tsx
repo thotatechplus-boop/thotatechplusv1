@@ -12,9 +12,9 @@ export function Footer() {
         {/* Contact */}
         <div>
           <div className="font-semibold mb-2">Contact</div>
+          <p>103, 4th Cross, Ayyappa Layout,<br/> Munne Kollala, Marathahalli,<br/> Bangalore - 560037</p>
           <p>operations@thotatechplus.com</p>
-          <p>+91 9886187188</p>
-          <p>103, 4th Cross, Ayyappa Layout, Munne Kolla,<br/> Marathahalli, Bangalore - 560037</p>
+          <p>+91 8546 8546 11</p>
         </div>
 
         {/* Follow */}
